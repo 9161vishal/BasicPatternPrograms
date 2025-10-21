@@ -2,7 +2,18 @@
 public class TrianglePrograms {
 	public static void main(String[] args) {
 		final int n=5;
-		System.out.println("(1)");
+		
+/*
+  
+(1)
+
+*         
+* *       
+* * *     --------
+* * * *           |
+* * * * *         V
+  
+  */    System.out.println("(1)");
 		System.out.println();
 		for(int i=1;i<=n;i++) {
 			for(int j=1;j<=n;j++) {
@@ -16,7 +27,18 @@ public class TrianglePrograms {
 			System.out.println();
 		}
 		
-		System.out.println("\n");
+		
+/*
+
+(2)
+
+* * * * * 
+  * * * * 
+    * * *     -----
+      * *          |
+        *          V
+
+*/      System.out.println("\n");
 		System.out.println("(2)");
 		System.out.println();
 		for(int i=1;i<=n;i++) {
@@ -31,8 +53,18 @@ public class TrianglePrograms {
 			System.out.println();
 		}
 
-		
-		System.out.println("\n");
+
+/*
+
+(3)
+
+* * * * * 
+* * * *   
+* * *      --------  
+* *                |
+*                  V
+
+*/      System.out.println("\n");
 		System.out.println("(3)");
 		System.out.println();
 		for(int i=n;i>=1;i--) {
@@ -47,8 +79,19 @@ public class TrianglePrograms {
 			System.out.println();
 		}
 		
-		
-		System.out.println("\n");
+
+/*
+
+(4)
+
+        * 
+      * * 
+    * * *    -------
+  * * * *           |
+* * * * *           V
+
+ 
+*/      System.out.println("\n");
 		System.out.println("(4)");
 		System.out.println();
 		for(int i=n;i>=1;i--) {
@@ -63,8 +106,21 @@ public class TrianglePrograms {
 			System.out.println();
 		}
 		
+
 		
-		System.out.println("\n");
+/*
+ 
+(5)
+
+1         
+1 2       
+1 2 3     
+1 2 3 4       --------
+1 2 3 4 5             |
+                      V
+ 
+
+*/      System.out.println("\n");
 		System.out.println("(5)");
 		System.out.println();
 		for(int i=1;i<=n;i++) {
@@ -80,8 +136,19 @@ public class TrianglePrograms {
 		}
 		
 		
+/*
+ 
+(6)
 
-		System.out.println("\n");
+1         
+2 1       
+3 2 1     --------
+4 3 2 1           |
+5 4 3 2 1         V
+ 
+
+
+*/      System.out.println("\n");
 		System.out.println("(6)");
 		System.out.println();
 		int num;
@@ -99,8 +166,18 @@ public class TrianglePrograms {
 		}
 		
 		
+/*
+ 
+ (7)
 
-		System.out.println("\n");
+        1 
+      2 1 
+    3 2 1    ---------
+  4 3 2 1             |
+5 4 3 2 1             V
+ 
+
+*/      System.out.println("\n");
 		System.out.println("(7)");
 		System.out.println();
 		for(int i=1;i<=n;i++) {
@@ -115,8 +192,19 @@ public class TrianglePrograms {
 			System.out.println();
 		}
 		
-		
-		System.out.println("\n");
+
+/*
+ 
+(8)
+
+        1 
+      1 2 
+    1 2 3     --------
+  1 2 3 4             |
+1 2 3 4 5             V
+ 
+ 
+*/      System.out.println("\n");
 		System.out.println("(8)");
 		System.out.println();
 		for(int i=n;i>=1;i--) {
@@ -133,8 +221,19 @@ public class TrianglePrograms {
 			System.out.println();
 		}
 		
-		
-		System.out.println("\n");
+
+/*
+ 
+(9)
+
+A         
+A B       
+A B C     
+A B C D       --------
+A B C D E             |
+                      V
+
+*/      System.out.println("\n");
 		System.out.println("(9)");
 		System.out.println();
 		for(int i=1;i<=n;i++) {

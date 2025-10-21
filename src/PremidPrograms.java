@@ -20,7 +20,7 @@ public class PremidPrograms {
 			en++;
 		}
 		
-		System.out.println("(2)");         // =======================>	MY LOGIC
+		System.out.println("(2)");         // =======================>	MY RAW LOGIC
 		System.out.println();
 		il=(n/2)+1;
 		jl=n;
@@ -38,7 +38,20 @@ public class PremidPrograms {
 			en--;
 		}*/
 		
-		
+
+/*      MY OPTIMISE LOGIC
+  
+ (1)
+
+            * 
+          * * * 
+        * * * * * 
+      * * * * * * *         ------
+    * * * * * * * * *             |
+  * * * * * * * * * * *           v
+* * * * * * * * * * * * * 
+  
+ */				
 		System.out.println("(1)");
 		System.out.println();
 		int n=7;
@@ -52,7 +65,19 @@ public class PremidPrograms {
 			System.out.println();
 		}
 		
-		
+/*
+ 
+ (2)
+
+* * * * * * * * * * * * * 
+  * * * * * * * * * * * 
+    * * * * * * * * *     -------
+      * * * * * * *              |
+        * * * * *                v
+          * * * 
+            * 
+ 
+ */	
 		System.out.println("(2)");
 		System.out.println();
 		for(int i=n;i>=1;i--) {
